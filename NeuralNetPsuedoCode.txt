@@ -1,0 +1,22 @@
+Neural Network Psuedo Code
+
+class Network {
+	nodes = []
+}
+
+class Node {
+	connections = []
+}
+
+class Connection {
+receiver = {type Node}
+
+//can have stimulatory or inhibitory compute function
+	def compute(input) {
+
+	}
+}
+
+
+// Mimic brain by having decaying connections unless sufficient repitions are produced
+// have short-term, intermediate-term, and long-term modules
